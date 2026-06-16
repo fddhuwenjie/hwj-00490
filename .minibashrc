@@ -1,0 +1,13 @@
+# ~/.minibashrc - MiniBash configuration file
+
+alias ll='ls -la'
+alias la='ls -a'
+alias ..='cd ..'
+alias cls='clear'
+alias greet='echo Hello from MiniBash'
+
+PS1='minibash:\w\$ '
+
+export PATH=$PATH:/usr/local/bin
+export EDITOR=vim
+export LANG=en_US.UTF-8
